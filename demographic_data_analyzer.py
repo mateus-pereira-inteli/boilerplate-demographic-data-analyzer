@@ -46,8 +46,8 @@ def calculate_demographic_data(print_data=True):
     if print_data:
         print("Contagem de raça:\n", race_count)
         print("Idade média dos homens:", average_age_men)
-        print(f"Porcentagem com Bachelors: {percentage_bachelors}%")
-        print(f"Porcentagem com Bachelors, Masters ou Doutorado que ganham mais de 50K: {higher_education_rich}%")
+        print(f"Porcentagem com Bacharelado: {percentage_bachelors}%")
+        print(f"Porcentagem com Bacharelado, Mestrado ou Doutorado que ganham mais de 50K: {higher_education_rich}%")
         print(f"Porcentagem sem educação superior que ganham mais de 50K: {lower_education_rich}%")
         print("Porcentagem total de pessoas que ganham mais de 50K:", percentage_rich)
         print("País com a maior porcentagem de pessoas que ganham mais de 50K:", highest_earning_country)
